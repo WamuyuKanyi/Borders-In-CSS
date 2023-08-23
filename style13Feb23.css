@@ -4,11 +4,7 @@ This model has three properies- Padding, Border, Margin */
 /* Border- goes around element*/
 /*Margin- Distance between the edges of the screen or some other element */
 
-/* we use the asterix in margin to get rid of all the default margins  */
-/* BORDER */
-*{
- margin: 0;
-}
+
 h1{
  background: red;
  padding: 20px;
@@ -29,11 +25,6 @@ p{
  margin: 50px 20px;
  /* border shortcut */
  border: 15px solid yellow;
-
- /* padding shortcut
-   */
-   /* padding: 50px; - exact same padding all around */
  background-color: blue;
- /* padding:30px 60px ;- padding top bottom */
- /* padding: 30px 20px 50px 10px; -padding from top to right to bottom to left*/
+
 }
